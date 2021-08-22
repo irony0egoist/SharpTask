@@ -64,7 +64,7 @@ namespace SharpTask
 				"<Description|\"Inspects the AppID cache for invalid SmartScreen entries.\"> <ExecutablePath|C:\\Windows\\notepad.exe> <ExecutableArgs|Optional>" +
 				"\n\n\t--RemoveTask <Computer|local|hostname|ip> <Folder|\\|\\Microsoft\\Windows\\AppID> <Name|VerifiedPublisherSmartScreenCheck>" +
 				 "\n\n\t--GetRunning <Computer|local|hostname|ip>") ;
-			System.Environment.Exit(1);
+			
 		}
 
 		static void ListAll(string computer, string taskFolder)
